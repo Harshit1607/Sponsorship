@@ -1,0 +1,55 @@
+.footer {
+  background-color: #121212;
+  color: #fff;
+  max-width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content:center;
+}
+
+.logoSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 30%;
+  margin-top: 5%;
+  max-height: 35vh;
+}
+
+.logo {
+  width: 2.5rem;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+
+.linksSection {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  width: 70%;
+  margin-top: 5%;
+  max-height: 35vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 0.5rem;
+}

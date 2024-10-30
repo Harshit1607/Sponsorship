@@ -1,0 +1,69 @@
+.navbar {
+  background-color: #121212;
+  padding: 0;
+  /* position: fixed; */
+  /* top: 0%;
+  left: 2%;
+  width: 90%; */
+  height: 100px;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.logo {
+  height: 80px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 16px;
+  color: white;
+  width: 50%;
+  cursor: pointer;
+}
+
+.navLinks > div {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.navLinks > div:hover {
+  transform: scale(1.2); /* Scale the element by 1.2 */
+}
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.getStarted {
+  background-color: #E785F2;
+  border: 4px solid transparent;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.login {
+  background-color: black;
+  border: 4px solid #E785F2;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+

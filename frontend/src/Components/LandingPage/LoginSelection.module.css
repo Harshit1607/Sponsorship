@@ -1,0 +1,120 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto 0;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.subtitle {
+  display: block;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 30%;
+}
+
+.SocietyButton {
+  border-color: #1AD6B5;
+}
+
+/* .SocietyButton:hover {
+  background-color: #fff3e0;
+} */
+
+.SponsorButton {
+  border-color: #E785F2;
+}
+
+/* .SponsorButton:hover {
+  background-color: #fce4ec;
+} */
+
+.CollegeButton {
+  border-color: #1AD6B5;
+}
+
+/* .CollegeButton:hover {
+  background-color: #fce4ec;
+} */
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 128px;
+  margin-bottom: 16px;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .avatarContainer {
+  position: absolute;
+  bottom: -8px;
+  right: -8px;
+  width: 48px;
+  height: 48px;
+  background-color: #ffc107;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+} */
+
+.buttonText {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.arrowIcon {
+  font-size: 24px;
+}
+
+.researcherButton .arrowIcon {
+  color: #ff9800;
+}
+
+.participantButton .arrowIcon {
+  color: #e91e63;
+}
