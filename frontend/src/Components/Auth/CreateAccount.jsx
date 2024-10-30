@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import LandingNav from '../LandingPage/LandingNav.jsx'
 import styles from './CreateAccount.module.css';
 
 const CreateAccount = () => {
+    const [hover, setHover] = useState(false);
     return (
         <div className={styles.container}>
-            <LandingNav />
+            <LandingNav hover={hover} setHover={setHover}/>
             <div className={styles.content}>
                 <div>
                     <div className={styles.title}>Create an account</div>
