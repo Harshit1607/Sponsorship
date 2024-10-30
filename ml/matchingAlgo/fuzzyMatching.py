@@ -36,11 +36,11 @@ def fuzzy_event_type_match(company_event, society_event):
 def calculate_match_score(company, society, weights):
     score = 0
     
-    # 1. Event type match using fuzzy matching
+    # Event type match using fuzzy matching
     event_match_score = fuzzy_event_type_match(company['event_type'], society['event_type'])
     score += event_match_score * weights['event_type']
     
-    # 2. Target audience match (binary score)
+    # Target audience match (binary score)
     if company['target_audience'] == society['target_audience']:
         score += 1 * weights['target_audience']
     
@@ -51,7 +51,7 @@ def calculate_match_score(company, society, weights):
     budget_score = min(society_budget_needed / company_budget, 1)  
     score += budget_score * weights['budget']
     
-    # 4. Location match 
+    # Location match 
     if company['location'] == society['location']:
         score += 1 * weights['location']  # Exact match
     elif company['location'].split()[-1] == society['location'].split()[-1]: 
